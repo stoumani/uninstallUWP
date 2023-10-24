@@ -1,15 +1,4 @@
-<#
-.SYNOPSIS
-    Remove select built-in Windows 11 apps and sets the required registry entries to prevent unnecessary bloatware .
-.DESCRIPTION
-    This script removes specified built-in apps from Windows 11.  The list of apps to be removed is downloaded from  
-    a .txt file hosted on GitHub, allowing it to be updated without modifying the actual script.
 
-    It also prevents the Chat (Consumer Teams) app from being reinstalled, which requires modifying a (normally) Read-Only registry key.
-.NOTES
-    "If you take from one author, it's plagiarism; if you take from many, it's research." -Wilson Mizner
-    This script and the ideas behind it are all largely taken from the works of Nickolaj Anderson, Ben Whitmore and Mike Plichta.
-#>
 
 $ScriptVersion = "1"
 $BlockedAppsListUrl = "https://raw.githubusercontent.com/scottorgan/AutoPilotScript/master/AppsToRemove.txt"
