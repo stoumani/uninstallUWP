@@ -1,7 +1,7 @@
 
 
 $ScriptVersion = "1"
-$BlockedAppsListUrl = "https://raw.githubusercontent.com/scottorgan/AutoPilotScript/master/AppsToRemove.txt"
+$BlockedAppsListUrl = "https://raw.githubusercontent.com/stoumani/uninstallUWP/main/AppsToRemove.txt"
 $LogFileName = "AutopilotCustomConfig.log"
 
 #region ---FUNCTIONS---
